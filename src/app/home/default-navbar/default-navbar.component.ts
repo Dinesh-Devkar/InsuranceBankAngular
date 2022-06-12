@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DefaultNavbarComponent implements OnInit {
 
-  constructor() { }
+  user:string='';
+
+  constructor() {
+    this.checkUser();
+   }
 
   ngOnInit(): void {
   }
 
+  checkUser(){
+    this.user='admin';
+  }
 }

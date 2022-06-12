@@ -4,7 +4,6 @@ import { CommonModule } from '@angular/common';
 import { LandingComponent } from './landing/landing.component';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
-import { DefaultNavbarComponent } from './default-navbar/default-navbar.component';
 
 
 
@@ -12,7 +11,6 @@ import { DefaultNavbarComponent } from './default-navbar/default-navbar.componen
   declarations: [
     LandingComponent,
     FooterComponent,
-    DefaultNavbarComponent
   ],
   imports: [
     CommonModule,
