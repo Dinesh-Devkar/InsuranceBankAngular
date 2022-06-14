@@ -15,6 +15,8 @@ import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { ViewEmployeeComponent } from './view-employee/view-employee.component';
 import { AddAgentComponent } from './add-agent/add-agent.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ViewCommisionComponent } from './view-commision/view-commision.component';
+import { CommisionWithdrwalComponent } from './commision-withdrwal/commision-withdrwal.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AddEmployeeComponent,
     ViewEmployeeComponent,
     AddAgentComponent,
+    ViewCommisionComponent,
+    CommisionWithdrwalComponent,
   ],
   imports: [
     CommonModule,

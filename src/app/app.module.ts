@@ -24,6 +24,8 @@ import { AddAgentComponent } from './admin/add-agent/add-agent.component';
 
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +43,7 @@ import { AddAgentComponent } from './admin/add-agent/add-agent.component';
     AddInsuranceSchemeComponent,
     AddInsurancePlanComponent,
     AddEmployeeComponent,
-    AddAgentComponent
+    AddAgentComponent,    
     
   ],
   imports: [
@@ -50,6 +52,8 @@ import { AddAgentComponent } from './admin/add-agent/add-agent.component';
     NgbModule,
     FormsModule,
     ReactiveFormsModule,
+    
+    
     
   ],
   providers: [],

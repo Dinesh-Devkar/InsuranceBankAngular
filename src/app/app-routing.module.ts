@@ -23,6 +23,10 @@ import { NavbarComponent } from './home/navbar/navbar.component';
 import { RegisterComponent } from './home/register/register.component';
 import { ArogyaShieldComponent } from './policies/arogya-shield/arogya-shield.component';
 import { ProtectionComponent } from './policies/protection/protection.component';
+import { HelloComponent } from './employee/hello/hello.component';
+import { EmpDashboardComponent } from './employee/emp-dashboard/emp-dashboard.component';
+import { ViewCommisionComponent } from './admin/view-commision/view-commision.component';
+import { CommisionWithdrwalComponent } from './admin/commision-withdrwal/commision-withdrwal.component';
 
 const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       { path: '', component: LandingComponent },
@@ -46,7 +50,12 @@ const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       {path:'admin/viewstate',component:ViewStateComponent},
                       {path:'admin/addemployee',component:AddEmployeeComponent},
                       {path:'admin/viewemployee',component:ViewEmployeeComponent},
+                      {path:'admin/viewcommison',component:ViewCommisionComponent},
+                      {path:'admin/commisonwithdraw',component:CommisionWithdrwalComponent},
                       {path:'admin/addagent',component:AddAgentComponent},
+                      {path:'admin/hello',component:HelloComponent},
+                      {path:'employee/dashboard',component:EmpDashboardComponent},
+
 ];
 
 @NgModule({
