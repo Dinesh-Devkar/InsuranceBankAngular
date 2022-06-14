@@ -12,6 +12,15 @@ import { ArogyaShieldComponent } from './policies/arogya-shield/arogya-shield.co
 import { FooterComponent } from './home/footer/footer.component';
 import { DefaultNavbarComponent } from './home/default-navbar/default-navbar.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
+import { AddInsuranceComponent } from './admin/add-insurance/add-insurance.component';
+import { AddCityComponent } from './admin/add-city/add-city.component';
+import { AddStateComponent } from './admin/add-state/add-state.component';
+import { AddInsuranceSchemeComponent } from './admin/add-insurance-scheme/add-insurance-scheme.component';
+import { AddInsurancePlanComponent } from './admin/add-insurance-plan/add-insurance-plan.component';
+import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
+import { AddAgentComponent } from './admin/add-agent/add-agent.component';
+
+
 
 
 
@@ -25,7 +34,15 @@ import { DashboardComponent } from './admin/dashboard/dashboard.component';
     ArogyaShieldComponent,
     FooterComponent,
     DefaultNavbarComponent,
-    DashboardComponent
+    DashboardComponent,
+    AddInsuranceComponent,
+    AddCityComponent,
+    AddStateComponent,
+    AddInsuranceSchemeComponent,
+    AddInsurancePlanComponent,
+    AddEmployeeComponent,
+    AddAgentComponent
+    
   ],
   imports: [
     BrowserModule,

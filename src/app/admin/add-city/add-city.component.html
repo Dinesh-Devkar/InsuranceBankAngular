@@ -8,35 +8,47 @@
 <div class="row justify-content-center me-2">
 
     <div class="col-auto border">
-        <table class="table table-striped p-4">
-            <tbody>
-                <tr>
-                    <th class="border" scope="row">State</th>
-                    <td class=""> <select name="Status">
-                            <option value="Active">Maharastra</option>
-                            <option value="Inactive">Gujrat</option>
-                        </select></td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <th class="border" scope="row">City</th>
-                    <td><input type="text"></td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <th class="border" scope="row">Status</th>
-                    <td class=""> <select name="Status">
-                            <option value="Active">Active</option>
-                            <option value="Inactive">Inactive</option>
-                        </select></td>
-                </tr>
-            </tbody>
+        <form [formGroup]="city">
+            <table class="table table-striped p-4">
+                <tbody>
+                    <tr>
+                        <th class="border" scope="row">State</th>
+                        <td class="">
+                            <select name="Status" formControlName="state">
+                                <option value="Active">Maharastra</option>
+                                <option value="Inactive">Gujrat</option>
+                            </select>
+                            <span style="color: red;" *ngIf="State && State.invalid && State.touched">State Required</span>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th class="border" scope="row">City</th>
+                        <td><input type="text" formControlName="cityname">
+                            <span style="color: red;" *ngIf="CityName && CityName.invalid && CityName.touched">City Name Required</span>
+                       
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th class="border" scope="row">Status</th>
+                        <td class="">
+                            <select name="Status" formControlName="status">
+                                <option value="Active">Active</option>
+                                <option value="Inactive">Inactive</option>
+                            </select>
+                            <span style="color: red;" *ngIf="Status && Status.invalid && Status.touched">City Name Required</span>
+                       
+                        </td>
+                    </tr>
+                </tbody>
 
 
-        </table>
-        <button class="btn btn-danger">Add</button>
+            </table>
+        </form>
+        <button class="btn btn-danger" [disabled]="city.invalid">Add</button>
 
     </div>
 </div>

@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddAgentComponent } from './admin/add-agent/add-agent.component';
 import { AddCityComponent } from './admin/add-city/add-city.component';
+import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
 import { AddInsurancePlanComponent } from './admin/add-insurance-plan/add-insurance-plan.component';
 import { AddInsuranceSchemeComponent } from './admin/add-insurance-scheme/add-insurance-scheme.component';
 import { AddInsuranceComponent } from './admin/add-insurance/add-insurance.component';
@@ -10,6 +12,7 @@ import { FeedbackComponent } from './admin/feedback/feedback.component';
 import { InsuranceSettingComponent } from './admin/insurance-setting/insurance-setting.component';
 import { TaxSettingComponent } from './admin/tax-setting/tax-setting.component';
 import { ViewCityComponent } from './admin/view-city/view-city.component';
+import { ViewEmployeeComponent } from './admin/view-employee/view-employee.component';
 import { ViewInsrunaceComponent } from './admin/view-insrunace/view-insrunace.component';
 import { ViewInsurancePlanComponent } from './admin/view-insurance-plan/view-insurance-plan.component';
 import { ViewInsuranceSchemeComponent } from './admin/view-insurance-scheme/view-insurance-scheme.component';
@@ -41,6 +44,9 @@ const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       {path:'admin/viewcity',component:ViewCityComponent},
                       {path:'admin/addstate',component:AddStateComponent},
                       {path:'admin/viewstate',component:ViewStateComponent},
+                      {path:'admin/addemployee',component:AddEmployeeComponent},
+                      {path:'admin/viewemployee',component:ViewEmployeeComponent},
+                      {path:'admin/addagent',component:AddAgentComponent},
 ];
 
 @NgModule({

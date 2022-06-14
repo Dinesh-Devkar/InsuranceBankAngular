@@ -7,65 +7,44 @@
 <div class="row justify-content-center me-2">
 
     <div class="col-auto border">
-        <table class="table table-striped p-4">
-            <tbody>
-                <tr>
-                    <th class="border" scope="row">Insurance Type</th>
-                    <td><input type="text"></td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <th class="border" scope="row">Image</th>
-                    <td><input type="file"></td>
-                </tr>
-            </tbody>
-            <tbody>
-                <tr>
-                    <th class="border" scope="row">Status</th>
-                    <td class=""> <select name="Status">
-                            <option value="Active">Active</option>
-                            <option value="Inactive">Inactive</option>
-                        </select></td>
-                </tr>
-            </tbody>
+        <form [formGroup]="insurance">
+            <table class="table table-striped p-4">
+                <tbody>
+                    <tr>
+                        <th class="border" scope="row">Insurance Type</th>
+                        <td><input type="text" class="form-control" formControlName="insurancetype">
+                            <span style="color: red;"
+                                *ngIf="InsuranceType && InsuranceType.invalid && InsuranceType.touched">Insurance Type
+                                Required</span>
+                        </td>
 
-
-        </table>
-        <button class="btn btn-danger">Submit</button>
-
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th class="border" scope="row">Image</th>
+                        <td><input type="file" accept="image/x-png,image/gif,image/jpeg" formControlName="image">
+                            <span style="color: red;" *ngIf="Image && Image.invalid && Image.touched">Image
+                                Required</span>
+                        </td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th class="border" scope="row">Status</th>
+                        <td class="">
+                            <select name="Status" formControlName="status">
+                                <option value="Active">Active</option>
+                                <option value="Inactive">Inactive</option>
+                            </select>
+                            <span style="color: red;" *ngIf="Status && Status.invalid && Status.touched "> Status
+                                Required</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btn btn-danger" [disabled]="insurance.invalid">Submit</button>
+        </form>
     </div>
 </div>
-
-
-<!-- <div class="col-6 bg-light">
-        <div class="row">
-            <div class="col-4">
-                Insurance Type
-            </div>
-            <div class="col">
-                <input type="text">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4 ">
-                Image
-            </div>
-            <div class="col">
-                <input type="file">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-4 ">
-                Status
-            </div>
-            <div class="col">
-
-                <select name="Status">
-                    <option value="Active">Active</option>
-                    <option value="Inactive">Inactive</option>
-                </select>
-            </div>
-        </div>
-
-</div> -->
+ 
