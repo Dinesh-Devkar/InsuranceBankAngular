@@ -28,6 +28,7 @@ import { EmpDashboardComponent } from './employee/emp-dashboard/emp-dashboard.co
 import { ViewCommisionComponent } from './admin/view-commision/view-commision.component';
 import { CommisionWithdrwalComponent } from './admin/commision-withdrwal/commision-withdrwal.component';
 import { ViewAgentComponent } from './admin/view-agent/view-agent.component';
+import { ChangePasswordComponent } from './admin/change-password/change-password.component';
 
 const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       { path: '', component: LandingComponent },
@@ -57,6 +58,7 @@ const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       {path:'admin/addagent',component:AddAgentComponent},
                       {path:'admin/hello',component:HelloComponent},
                       {path:'employee/dashboard',component:EmpDashboardComponent},
+                      {path:'changepassword',component:ChangePasswordComponent}
 
 ];
 

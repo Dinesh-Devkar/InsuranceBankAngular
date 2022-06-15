@@ -18,6 +18,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ViewCommisionComponent } from './view-commision/view-commision.component';
 import { CommisionWithdrwalComponent } from './commision-withdrwal/commision-withdrwal.component';
 import { ViewAgentComponent } from './view-agent/view-agent.component';
+import { ChangePasswordComponent } from './change-password/change-password.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { ViewAgentComponent } from './view-agent/view-agent.component';
     ViewCommisionComponent,
     CommisionWithdrwalComponent,
     ViewAgentComponent,
+    ChangePasswordComponent,
   ],
   imports: [
     CommonModule,
