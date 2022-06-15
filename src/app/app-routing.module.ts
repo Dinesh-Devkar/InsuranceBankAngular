@@ -29,6 +29,11 @@ import { ViewCommisionComponent } from './admin/view-commision/view-commision.co
 import { CommisionWithdrwalComponent } from './admin/commision-withdrwal/commision-withdrwal.component';
 import { ViewAgentComponent } from './admin/view-agent/view-agent.component';
 import { ChangePasswordComponent } from './admin/change-password/change-password.component';
+import { CommisionClaimComponent } from './admin/commision-claim/commision-claim.component';
+import { InsuranceAccountComponent } from './admin/insurance-account/insurance-account.component';
+import { ViewCustomersComponent } from './admin/view-customers/view-customers.component';
+import { ProfileComponent } from './admin/profile/profile.component';
+import { ViewPolicyPaymentComponent } from './admin/view-policy-payment/view-policy-payment.component';
 
 const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       { path: '', component: LandingComponent },
@@ -36,29 +41,34 @@ const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       { path: 'register', component: RegisterComponent },
                       { path: 'protection', component: ProtectionComponent },
                       { path: 'arogyashield', component: ArogyaShieldComponent },
-                      { path: 'admin/dashboard', component: DashboardComponent },
-                      { path: 'admin/viewfeedback', component: FeedbackComponent },
-                      { path: 'admin/addinsurance', component: AddInsuranceComponent },
-                      { path: 'admin/viewinsurance', component: ViewInsrunaceComponent },
-                      { path: 'admin/addinsurancescheme', component: AddInsuranceSchemeComponent },
-                      {path:'admin/viewinsurancescheme',component:ViewInsuranceSchemeComponent},
-                      {path:'admin/addinsuranceplan',component:AddInsurancePlanComponent},
-                      {path:'admin/viewinsuranceplan',component:ViewInsurancePlanComponent},
-                      {path:'admin/tax',component:TaxSettingComponent},
-                      {path:'admin/insurancesetting',component:InsuranceSettingComponent},
-                      {path:'admin/addcity',component:AddCityComponent},
-                      {path:'admin/viewcity',component:ViewCityComponent},
-                      {path:'admin/addstate',component:AddStateComponent},
-                      {path:'admin/viewstate',component:ViewStateComponent},
-                      {path:'admin/addemployee',component:AddEmployeeComponent},
-                      {path:'admin/viewemployee',component:ViewEmployeeComponent},
-                      {path:'admin/viewcommison',component:ViewCommisionComponent},
-                      {path:'admin/commisonwithdraw',component:CommisionWithdrwalComponent},
-                      {path:'admin/viewagent',component:ViewAgentComponent},
-                      {path:'admin/addagent',component:AddAgentComponent},
-                      {path:'admin/hello',component:HelloComponent},
-                      {path:'employee/dashboard',component:EmpDashboardComponent},
-                      {path:'changepassword',component:ChangePasswordComponent}
+                      { path: 'dashboard', component: DashboardComponent },
+                      { path: 'viewfeedback', component: FeedbackComponent },
+                      { path: 'addinsurance', component: AddInsuranceComponent },
+                      { path: 'viewinsurance', component: ViewInsrunaceComponent },
+                      { path: 'addinsurancescheme', component: AddInsuranceSchemeComponent },
+                      {path:'viewinsurancescheme',component:ViewInsuranceSchemeComponent},
+                      {path:'addinsuranceplan',component:AddInsurancePlanComponent},
+                      {path:'viewinsuranceplan',component:ViewInsurancePlanComponent},
+                      {path:'tax',component:TaxSettingComponent},
+                      {path:'insurancesetting',component:InsuranceSettingComponent},
+                      {path:'addcity',component:AddCityComponent},
+                      {path:'viewcity',component:ViewCityComponent},
+                      {path:'addstate',component:AddStateComponent},
+                      {path:'viewstate',component:ViewStateComponent},
+                      {path:'addemployee',component:AddEmployeeComponent},
+                      {path:'viewemployee',component:ViewEmployeeComponent},
+                      {path:'viewcommison',component:ViewCommisionComponent},
+                      {path:'commisonwithdraw',component:CommisionWithdrwalComponent},
+                      {path:'viewagent',component:ViewAgentComponent},
+                      {path:'addagent',component:AddAgentComponent},
+                      {path:'hello',component:HelloComponent},
+                      {path:'empdashboard',component:EmpDashboardComponent},
+                      {path:'changepassword',component:ChangePasswordComponent},
+                      {path:'commisionclaim',component:CommisionClaimComponent},
+                      {path:'insuranceaccount',component:InsuranceAccountComponent},
+                      {path:'viewcustomers',component:ViewCustomersComponent},
+                      {path:'adminprofile',component:ProfileComponent},
+                      {path:'policypayment',component:ViewPolicyPaymentComponent},
 
 ];
 

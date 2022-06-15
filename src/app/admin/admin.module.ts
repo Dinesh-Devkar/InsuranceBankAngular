@@ -19,6 +19,11 @@ import { ViewCommisionComponent } from './view-commision/view-commision.componen
 import { CommisionWithdrwalComponent } from './commision-withdrwal/commision-withdrwal.component';
 import { ViewAgentComponent } from './view-agent/view-agent.component';
 import { ChangePasswordComponent } from './change-password/change-password.component';
+import { ProfileComponent } from './profile/profile.component';
+import { CommisionClaimComponent } from './commision-claim/commision-claim.component';
+import { InsuranceAccountComponent } from './insurance-account/insurance-account.component';
+import { ViewCustomersComponent } from './view-customers/view-customers.component';
+import { ViewPolicyPaymentComponent } from './view-policy-payment/view-policy-payment.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +43,11 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
     CommisionWithdrwalComponent,
     ViewAgentComponent,
     ChangePasswordComponent,
+    ProfileComponent,
+    CommisionClaimComponent,
+    InsuranceAccountComponent,
+    ViewCustomersComponent,
+    ViewPolicyPaymentComponent,
   ],
   imports: [
     CommonModule,
