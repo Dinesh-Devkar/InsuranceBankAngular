@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> */
+@import url(../node_modules/bootstrap/dist/css/bootstrap.css);
+@import url(../node_modules/bootstrap/dist/css/bootstrap.min.css);
+@import url(../node_modules/font-awesome/css/font-awesome.css);
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
