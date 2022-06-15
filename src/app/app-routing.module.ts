@@ -27,6 +27,7 @@ import { HelloComponent } from './employee/hello/hello.component';
 import { EmpDashboardComponent } from './employee/emp-dashboard/emp-dashboard.component';
 import { ViewCommisionComponent } from './admin/view-commision/view-commision.component';
 import { CommisionWithdrwalComponent } from './admin/commision-withdrwal/commision-withdrwal.component';
+import { ViewAgentComponent } from './admin/view-agent/view-agent.component';
 
 const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       { path: '', component: LandingComponent },
@@ -52,6 +53,7 @@ const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       {path:'admin/viewemployee',component:ViewEmployeeComponent},
                       {path:'admin/viewcommison',component:ViewCommisionComponent},
                       {path:'admin/commisonwithdraw',component:CommisionWithdrwalComponent},
+                      {path:'admin/viewagent',component:ViewAgentComponent},
                       {path:'admin/addagent',component:AddAgentComponent},
                       {path:'admin/hello',component:HelloComponent},
                       {path:'employee/dashboard',component:EmpDashboardComponent},

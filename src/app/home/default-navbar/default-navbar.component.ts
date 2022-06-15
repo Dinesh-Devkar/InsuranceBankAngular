@@ -18,6 +18,6 @@ export class DefaultNavbarComponent implements OnInit {
 
   checkUser(){
     this.user='admin';
-    this.user='employee'
+    // this.user='employee'
   }
 }
