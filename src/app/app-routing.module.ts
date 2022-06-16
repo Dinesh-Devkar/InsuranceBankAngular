@@ -34,6 +34,7 @@ import { InsuranceAccountComponent } from './admin/insurance-account/insurance-a
 import { ViewCustomersComponent } from './admin/view-customers/view-customers.component';
 import { ProfileComponent } from './admin/profile/profile.component';
 import { ViewPolicyPaymentComponent } from './admin/view-policy-payment/view-policy-payment.component';
+import { EditFeedbackComponent } from './admin/edit-feedback/edit-feedback.component';
 
 const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       { path: '', component: LandingComponent },
@@ -69,6 +70,7 @@ const routes: Routes = [{ path: 'navbar', component: NavbarComponent },
                       {path:'viewcustomers',component:ViewCustomersComponent},
                       {path:'adminprofile',component:ProfileComponent},
                       {path:'policypayment',component:ViewPolicyPaymentComponent},
+                      {path:'editfeedback',component:EditFeedbackComponent},
 
 ];
 

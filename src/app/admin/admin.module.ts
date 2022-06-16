@@ -24,6 +24,7 @@ import { CommisionClaimComponent } from './commision-claim/commision-claim.compo
 import { InsuranceAccountComponent } from './insurance-account/insurance-account.component';
 import { ViewCustomersComponent } from './view-customers/view-customers.component';
 import { ViewPolicyPaymentComponent } from './view-policy-payment/view-policy-payment.component';
+import { EditFeedbackComponent } from './edit-feedback/edit-feedback.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { ViewPolicyPaymentComponent } from './view-policy-payment/view-policy-pa
     InsuranceAccountComponent,
     ViewCustomersComponent,
     ViewPolicyPaymentComponent,
+    EditFeedbackComponent,
   ],
   imports: [
     CommonModule,

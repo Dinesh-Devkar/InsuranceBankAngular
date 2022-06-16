@@ -27,6 +27,8 @@ import { ViewEmployeeComponent } from './admin/view-employee/view-employee.compo
 import { ViewInsrunaceComponent } from './admin/view-insrunace/view-insrunace.component';
 import { ViewInsurancePlanComponent } from './admin/view-insurance-plan/view-insurance-plan.component';
 import { ViewInsuranceSchemeComponent } from './admin/view-insurance-scheme/view-insurance-scheme.component';
+import { EditFeedbackComponent } from './admin/edit-feedback/edit-feedback.component';
+import { FeedbackComponent } from './admin/feedback/feedback.component';
 
 
 
@@ -60,6 +62,8 @@ import { ViewInsuranceSchemeComponent } from './admin/view-insurance-scheme/view
     ViewInsrunaceComponent,
     ViewInsurancePlanComponent,
     ViewInsuranceSchemeComponent,
+    EditFeedbackComponent,
+    FeedbackComponent,
   ],
   imports: [
     BrowserModule,
