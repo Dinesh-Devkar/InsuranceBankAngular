@@ -19,6 +19,17 @@ import { AddInsuranceSchemeComponent } from './admin/add-insurance-scheme/add-in
 import { AddInsurancePlanComponent } from './admin/add-insurance-plan/add-insurance-plan.component';
 import { AddEmployeeComponent } from './admin/add-employee/add-employee.component';
 import { AddAgentComponent } from './admin/add-agent/add-agent.component';
+import { EmpDashboardComponent } from './employee/emp-dashboard/emp-dashboard.component';
+import { ViewCityComponent } from './admin/view-city/view-city.component';
+import { ViewStateComponent } from './admin/view-state/view-state.component';
+import { ViewAgentComponent } from './admin/view-agent/view-agent.component';
+import { ViewEmployeeComponent } from './admin/view-employee/view-employee.component';
+import { ViewInsrunaceComponent } from './admin/view-insrunace/view-insrunace.component';
+import { ViewInsurancePlanComponent } from './admin/view-insurance-plan/view-insurance-plan.component';
+import { ViewInsuranceSchemeComponent } from './admin/view-insurance-scheme/view-insurance-scheme.component';
+import { EditFeedbackComponent } from './admin/edit-feedback/edit-feedback.component';
+import { FeedbackComponent } from './admin/feedback/feedback.component';
+import { AgentDashboardComponent } from './agent/agent-dashboard/agent-dashboard.component';
 
 
 
@@ -44,7 +55,17 @@ import { AddAgentComponent } from './admin/add-agent/add-agent.component';
     AddInsurancePlanComponent,
     AddEmployeeComponent,
     AddAgentComponent,    
-    
+    EmpDashboardComponent,
+    ViewCityComponent,
+    ViewStateComponent,
+    ViewAgentComponent,
+    ViewEmployeeComponent,
+    ViewInsrunaceComponent,
+    ViewInsurancePlanComponent,
+    ViewInsuranceSchemeComponent,
+    EditFeedbackComponent,
+    FeedbackComponent,
+    AgentDashboardComponent,
   ],
   imports: [
     BrowserModule,
