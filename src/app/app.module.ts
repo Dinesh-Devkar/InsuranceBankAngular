@@ -29,6 +29,7 @@ import { ViewInsurancePlanComponent } from './admin/view-insurance-plan/view-ins
 import { ViewInsuranceSchemeComponent } from './admin/view-insurance-scheme/view-insurance-scheme.component';
 import { EditFeedbackComponent } from './admin/edit-feedback/edit-feedback.component';
 import { FeedbackComponent } from './admin/feedback/feedback.component';
+import { AgentDashboardComponent } from './agent/agent-dashboard/agent-dashboard.component';
 
 
 
@@ -64,6 +65,7 @@ import { FeedbackComponent } from './admin/feedback/feedback.component';
     ViewInsuranceSchemeComponent,
     EditFeedbackComponent,
     FeedbackComponent,
+    AgentDashboardComponent,
   ],
   imports: [
     BrowserModule,
